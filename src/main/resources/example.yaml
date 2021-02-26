@@ -1,0 +1,12 @@
+example:
+  map1:
+    key1: value1
+    key2: value2
+
+  map2:
+    mapmap1:
+      a: A
+      b: B
+    mapmap2:
+      a: AA
+      b: BB
