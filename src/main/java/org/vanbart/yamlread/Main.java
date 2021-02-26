@@ -48,6 +48,7 @@ public class Main {
         final JsonNode node = mapper.readTree(stream).get("example").get("map2").get("mapmap2");
         final Map subtree = mapper.treeToValue(node, Map.class);
         log.info("subtree of yaml: {}", subtree);
+        log.info("Type of some.list = {}", subtree.get("some.list").getClass());
 
         // Or into some DTO class
         AbThing abThing = mapper.treeToValue(node, AbThing.class);

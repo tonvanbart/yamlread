@@ -11,3 +11,7 @@ example:
       a: AA
       b: BB
       c.d: FOOBAR
+      some.list:
+        - one
+        - two
+        - three
