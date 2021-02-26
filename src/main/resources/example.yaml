@@ -10,3 +10,4 @@ example:
     mapmap2:
       a: AA
       b: BB
+      c.d: FOOBAR
